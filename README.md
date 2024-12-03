@@ -16,7 +16,7 @@ Cet écran permettra à un utilisateur de s'inscrire après avoir renseigné 5 c
 
 <br>
 
-<div style="display: flex; gap: 10px; width: 286px">
+<div style="display: flex; gap: 10px; width: 200px">
     <img src="./assets/screenshots/signup01.png" style="width"/>
     <img src="./assets/screenshots/signup02.png"/>
 </div>
@@ -63,7 +63,7 @@ Cet écran permettra, à un utilisateur enregistré en BDD, de **se connecter** 
 
 <br>
 
-<div style="display: flex; gap: 10px; width: 286px">
+<div style="display: flex; gap: 10px; width: 200px">
     <img src="./assets/screenshots/login01.png" style="width"/>
     <img src="./assets/screenshots/login02.png"/>
 </div>
