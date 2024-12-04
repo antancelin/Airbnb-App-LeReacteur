@@ -36,7 +36,9 @@ const styles = StyleSheet.create({
     height: 100,
   },
 
-  basic: {
+  inputContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
     borderBottomWidth: 1,
     borderBottomColor: "#FFBAC0",
     width: 320,
