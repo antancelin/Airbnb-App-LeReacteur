@@ -6,15 +6,17 @@ import {
   Image,
   ActivityIndicator,
 } from "react-native";
-import { useLocalSearchParams, useRouter } from "expo-router";
+import { useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import axios from "axios";
+
+// import des styles
+import homeStyles from "../../../style/home";
 
 // import des images
 import logo from "../../../assets/imgs/airbnb-logo.png";
 
 const Room = () => {
-  const router = useRouter();
   const { id } = useLocalSearchParams();
 
   const [isLoading, setIsLoading] = useState(true);
@@ -40,14 +42,7 @@ const Room = () => {
 
   return (
     <SafeAreaView>
-      <View
-        style={{
-          alignItems: "center",
-          paddingVertical: 10,
-          borderBottomWidth: 2,
-          borderBottomColor: "#ECECEC",
-        }}
-      >
+      <View style={homeStyles.header}>
         <Image
           source={logo}
           style={{ height: 40, width: 40, resizeMode: "contain" }}
