@@ -7,7 +7,9 @@ import {
   TouchableOpacity,
   Alert,
   ActivityIndicator,
+  Platform,
 } from "react-native";
+import Constants from "expo-constants";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import { router } from "expo-router";
 import axios from "axios";
@@ -92,6 +94,7 @@ const Signup = () => {
         justifyContent: "center",
         alignItems: "center",
         gap: 30,
+        marginTop: Platform.OS === "android" ? Constants.statusBarHeight : 20,
       }}
     >
       <View style={styles.logoContent}>
