@@ -8,6 +8,7 @@ const AppLayout = () => {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: "#F9575C",
+        headerShown: false,
       }}
     >
       <Tabs.Screen

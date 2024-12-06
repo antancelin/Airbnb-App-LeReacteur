@@ -15,12 +15,13 @@ const homeStyles = StyleSheet.create({
   },
 
   content: {
-    padding: 10,
-    width: "100%",
+    padding: 15,
+    width: 475,
   },
 
   imageBackground: {
-    height: 220,
+    height: 255,
+    width: "100%",
     justifyContent: "flex-end",
   },
 
@@ -44,6 +45,30 @@ const homeStyles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     marginVertical: 10,
+  },
+
+  bottomContent: {
+    width: 280,
+    gap: 20,
+  },
+
+  title: {
+    fontSize: 22,
+  },
+
+  ratingContent: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 5,
+  },
+
+  stars: {
+    flexDirection: "row",
+    gap: 2,
+  },
+
+  reviews: {
+    color: "#BBBBBB",
   },
 });
 
